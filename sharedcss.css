@@ -1,0 +1,22 @@
+body 
+{
+background-color: red;
+padding-left: 15em;
+
+}
+.booklist
+{
+
+}
+
+.booklist {
+list-style-type: upper-roman
+}
+.tytul{
+font-style: italic
+}
+
+.autor
+{
+font-weight: bold
+}

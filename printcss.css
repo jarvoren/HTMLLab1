@@ -1,0 +1,38 @@
+.onPrinting
+{
+display: inline
+}
+
+.navbar{
+display: none;
+position: fixed;
+top: 2em;
+left: 1em;
+width: 14em
+}
+.booklist
+{
+
+}
+.navbar li {
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black }
+.navbar.a {
+    text-decoration: none }
+ a:link {
+ display: none;
+    color: blue }
+ a:visited {
+    color: purple }
+
+footer
+{
+display: none;
+}
+.stopkolinia {
+display: none;
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }

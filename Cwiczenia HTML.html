@@ -4,10 +4,15 @@
 				<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 				<meta charset="utf-8" />
 			  <title>Jakub Dabek filozof , filantrom , milioner</title> 
+			  <link rel="stylesheet" href="mycss.css" media="screen">
+			  <link rel="stylesheet" href="printcss.css" media="print">
+			  
 			</head>
 			<body>
+			<style>@import url('sharedcss.css');</style>
 			  <header>
-			      <h1 id="h1">Jakub Dabek</h1>
+				
+			    <h1 id="h1">Jakub Dabek</h1>
 			  </header>
 				  <section> 
 					<h2 id="h2">Dane osobowe</h2>
@@ -32,22 +37,22 @@
 				  <section> 
 					<h2 id="h3">Zainteresowania</h2>
 					<p> Cytat  &ldquo;Lubie placki&rdquo;</p>
-					  <ul>
+					  <ul >
 						<li>Lubiane Filmy
-						  <ol>
+						  <ol class="booklist">
 							<li><span class="tytul">Garsonka</span>
 							<ul>
-							<li>Reżyser: Holly Wood</li>
+							<li class="autor">Reżyser: Holly Wood</li>
 							<li>Rok Wydania: 1958</li>
 							</ul>
 							<li><span class="tytul">Ważniak</span>
 							<ul>
-							<li>Reżyser: Robin Hood</li>
+							<li class="autor">Reżyser: Robin Hood</li>
 							<li>Rok Wydania: 1458</li>
 							</ul>
 							<li><span class="tytul">Testament</span>
 							<ul>
-							<li>Reżyser: Reaper Grim</li>
+							<li class="autor" >Reżyser: Reaper Grim</li>
 							<li>Rok Wydania: 2015</li>
 							</ul>
 							</li>
@@ -58,26 +63,35 @@
 				  </section> 
 				  <section> 
 					<h2 id="h4">Wykształcenie</h2>
-						<h3>Szkoła podstawowa im powstanców Grudnia 70 </h3>
+						<h3 id="s1">Szkoła podstawowa im powstanców Grudnia 70 </h3>
 						<p> &mdash; nie odwiedzać.</p>
-						<h3>Liceum ogólnokształconce im Mikołaja Kopernika</h3>
+						<h3  id="s2">Liceum ogólnokształconce im Mikołaja Kopernika</h3>
 						<h3>Uniwersytet Gdański</h3>
 						<p><a href="http://ug.edu.pl/">Uniwersytet Gdański</a></p>
-						<h3>PJATK</h3>
+						<h3  id="s3">PJATK</h3>
 						<p><a href="https://gdansk.pjwstk.edu.pl/">PJATK</a></p>
 				  <a href="#h5"> Spis Tresci</a>
 				  </section> 
+				  <div class="stopkolinia"></div>
 			  <footer>
-			 <nav id="h5">
+			  <h1 class="onPrinting">Wydruk ze strony</h1>
+			 <nav id="h5" class="navbar">
 			 <h2>Spis Treści</h2>
 				 <ul>
 					<li><a href="#h1"> Strona Główna</a></li>
 					<li><a href="#h2"> Dane Osobowe</a></li>
 					<li><a href="#h3"> Zainteresowania</a></li>
-					<li><a href="#h4"> Wykształcenie</a></li>
+					<li class="wyksztalcenie"><a href="#h4"> Wykształcenie</a>
+						<ul>
+							<li class="szkola"><a href="#s1"> Szkoła 1</a></li>
+							<li class="szkola"><a href="#s2"> Szkoła 2</a></li>
+							<li class="szkola"><a href="#s3"> Szkoła 3</a></li>
+						</ul>
+					</li>
 				 </ul>
 			 </nav>
 			 <p>Poprawny HTML5</p>
+			 <p>Validacja CSS nie działa</p>
 		      </footer>
 		    </body>
 		  </html>
